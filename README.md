@@ -70,7 +70,9 @@ Modal menggunakan Bootstrap 5 dan juga dengan CSS agar mempercantik tampilan (bl
 
 ## 6. Journal Section
 
-foto
+<img width="1883" height="407" alt="image" src="https://github.com/user-attachments/assets/c66be362-d6ab-4f20-98cc-5174db3cffc7" />
+
+<img width="1882" height="778" alt="image" src="https://github.com/user-attachments/assets/ccfb6152-a46e-4381-8505-f28451f54c22" />
 
 Section journal adalah section yang menampilkan beberapa hasil journaling dalam bentuk grid.
 
