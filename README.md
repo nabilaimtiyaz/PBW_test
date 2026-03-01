@@ -52,13 +52,58 @@ foto
 
 Section sertifikat ini menampilkan daftar beberapa sertifikat dalam bentuk card/grid layout. Dibagi lagi menjadi dua kategori, yaitu Competition yang berisi sertifikat pertandingan atau perlombaan, serta kategori Leadership & Events yang berisi sertifikat dari mengikut event atau berpartisipasi dalam suatu kegiatan.
 
-<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/95d94428-a65e-43bc-a761-1a92f542004d" /> <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/67a305d8-c504-44c9-b720-c953ad9cccad" /> 
+ <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/67a305d8-c504-44c9-b720-c953ad9cccad" /> 
 
 Setiap card memiliki tombol "Show" yang akan menampilkan detail sertifikat dalam bentukk modal popup.
 
 Data sertifikat disimpan secara statis di dalam Vue JS (array of objects).
 
-# <sub>Penjelasan Code Setiap Section/Fitur</sub>
+## 5. Modal Popup
+
+<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/95d94428-a65e-43bc-a761-1a92f542004d" />
+
+Fitur modal popup ini digunakan untuk menampilkan gambar sertifikat, judul, dan deskripsi detailnya.
+
+Modal menggunakan Bootstrap 5 dan juga dengan CSS agar mempercantik tampilan (blur background, animasi, dan custom close button).
+
+## 6. Journal Section
+
+foto
+
+Section journal adalah section yang menampilkan beberapa hasil journaling dalam bentuk grid.
+
+Fitur-fitur nya yaitu ada layout 3 kolom yang responsive, lalu ada Hover animation pada card nya, dan juga ada divider dekoratif untuk pemisah untuk mempercantik tampilan.
+
+## 7. Footer
+
+<img width="1883" height="175" alt="image" src="https://github.com/user-attachments/assets/81d65b8c-2747-4200-9f1e-32cb8ffdd17e" />
 
 
-# <sub>Teknologi yang Digunakan</sub>
+# Penjelasan Code Setiap Section/Fitur
+
+
+# Teknologi yang Digunakan
+
+## 1. HTML5
+
+HTML5 digunakan untuk membangun struktur dasar website seperti section, navbar, card, dan modal.
+
+## 2. CSS3
+
+CSS3 digunakan dalam pembuatan website ini untuk styling tampilan website, termasuk warna, layout, animasi hover, efek shadow, serta desain feminine dan elegant.
+
+## 3. Bootstrap 5
+
+Framework CSS yang digunakan untuk mempermudah pembuatan layout responsive menggunakan grid system serta komponen seperti navbar dan modal.
+
+## 4. Bootstrap Icons
+
+Bootstrap icons digunakan untuk menampilkan ikon sosial media seperti Instagram, TikTok, dan Email di bagian footer agar lebih menarikk.
+
+## 5. Vue JS 
+
+Vue JS digunakan untuk membuat website lebih dinamis, seperti mengatur slider, gambar, menyimpan dan menampilkan data sertifikat, filter kategori, serta mengontrol modal popup di bagian sertifikat section.
+
+## 6. Google Fonts (Playfair Display & Poppins)
+
+Google fonts tentunya digunakan untuk mengganti fonts teks yang ada di dalam website agar lebih cantik tampilannya. Playfair Display digunakan untuk judul agar terlihat elegan, sedangkan Poppins digunakan untuk teks utama agar tetap stylish dan mudah ddibaca.
