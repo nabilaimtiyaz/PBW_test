@@ -7,6 +7,10 @@ Kelas : A
 
 Sistem Informasi '2024
 
+# Portofolio Website
+
+Website portofolio personal yang menampilkan profil, pengalaman, skill, sertifikat, dan jurnal pribari. Dibuat menggunakan HTML, CSS, Bootsrap 5, dan Vue JS.
+
 # Tampilan Setiap Section/Fitur
 
 ## 1. Navbar
