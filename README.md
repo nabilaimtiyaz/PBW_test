@@ -85,26 +85,193 @@ Fitur-fitur nya yaitu ada layout 3 kolom yang responsive, lalu ada Hover animati
 
 # Penjelasan Code Setiap Section/Fitur
 
+Berikut adalah penjelasan code dari setiap section website.
+
+## 1. Head
+
+~~~ Javascript
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio LaLaaa</title>
+
+    <!-- ==== Google Font === -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- ==== Bootstrap === -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+<div id="app">
+~~~
+
+Kode pada bagian ini berfungsi untuk mengatur konfigurasi dan identitas dasar dari halaman website portofolio ini. Yang mana didalam kode ini memiliki guna untuk mengatur format karakter agar bisa memberikan berbagai simbol dan huruf. Lalu adapun guna untuk mengatur nama atau judul halaman yang nantinya tampil di tab browser ketika website dibuka.
+
+Selanjutnya yaitu import library dan styling eksternal, contohnya seperti Google Fonts, Bootstrap 5, Bootstrap Icons, dan file CSS eksternal.
+
+~~~ Javascript
 <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
-    <div class="container">
-        <a class="navbar-brand brand-text" href="#">Lalaa</a>
+~~~
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+Kode tersebut berisi 'navbar' sebagai komponen navigasi dari Bootstrap, lalu ada 'fixed-top' agar navbar tetap di atas saat halaman discroll, dan ada pun 'custom-navbar' sebagai class tambahan untuk styling CSS sendiri.
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
-                <li class="nav-item"><a class="nav-link" href="#journal">Journal</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+~~~ Javascript
+<a class="nav-link" href="#about">About Me</a></li>
+~~~
+
+Kode tersebut berisi 'href="#about"' yang mana ini berfungsi agar ketika pengguna klik tampilan akan scroll ke bagian about. Selanjutnya ada 'nav-link' sebagai styling link bawaan Bootstrap.
+
+## 2. Hero Section
+
+~~~ Javascript
+<section id="home" class="hero-section">
+~~~
+
+Pada kode tersebut terdapat 'id="home"' yang mana ini adalah target navigasi dari navbar. Lalu ada 'hero-section' sebagai class untuk styling background dan layout.
+
+~~~ Javascript
+{{ headline }}
+~~~
+
+Ini adalah sintaks Vue JS untuk menampilkan data dari data().
+
+~~~ Javascript
+:src="currentImage"
+~~~
+
+Kode ini sebagai binding Vue untuk mengambil gambar secara dinamis.
+
+~~~ Javascript
+@click="nextImage"
+~~~
+
+Kode diatas adalah event Vue untuk menjalankan method saat tombol diklik.
+
+## 3. About Me Section
+
+~~~ Javascript
+<section id="about" class="section-soft">
+~~~
+
+Kode 'section-soft' ini untuk memberi padding atas bawah. Kode 'id="about"' adalah target scroll dari navbar.
+
+~~~ Javascript
+v-for="skill in skills"
+~~~
+
+Kode untuk perulangan Vue untuk menampilkan data dari array.
+
+~~~ Javascript
+:style="{ width: skill.level + '%' }"
+~~~
+
+Kode ini digunakan untuk mengatur lebar progress bar agar sesuai nilai skill.
+
+~~~ Javascript
+v-for="exp in experiences"
+~~~
+
+Kode tersebut digunakan untuk menampilkan daftar pengalaman dari array experiences.
+
+## 4. Certificates Section
+
+~~~ Javascript
+v-for="(cert, index) in competitionCerts"
+~~~
+
+Kode tersebut digunakan untuk menampilkan sertifikat kategori competition dan data difilter menggunakan computed property.
+
+~~~ Javascript
+@click="openModal(cert)"
+~~~
+
+Kode diatas adalah kode yang mana saat tombol diklik, maka kode akan menjalankan method openModal() lalu mengirim data sertifikat ke modal.
+
+## 5. Modal
+
+~~~ Javascript
+<div class="modal fade" id="certModal">
+~~~
+
+Kode 'modal' adalah komponen Bootstrap, lalu 'fade' untuk adanya efek animasi, dan 'id="certModal"' yang mana kode ini dipanggil saat membuka modal. 
+
+~~~ Javascript
+data-bs-dismiss="modal"
+~~~
+
+Kode ini berguna untuk menutup modal saat tombol X ditekan.
+
+~~~ Javascript
+:selectedCert.image
+~~~
+
+Kode pada bagian ini digunakan untuk mengambil gambar dari objek sertifikat yang dipilih.
+
+## 6. Journal Section
+
+~~~ Javascript
+v-for="(img, index) in journals"
+~~~
+
+Kode ini untuk menampilkan gambar journal dari array journals.
+
+~~~ Javascript
+:src="img"
+~~~
+
+Ini adalah binding Vue untuk menampilkan gambar secara dinamis.
+
+## 7. Vue JS
+
+~~~ Javascript
+createApp({
+    data() {
+        return {
+~~~
+
+Kode data() adalah tempat untuk menyimpan semua data website.
+
+~~~ Javascript
+computed:
+~~~
+
+Kode tersebut digunakan untuk memfilter sertifikat berdasarkan kategori.
+
+~~~ Javascript
+methods:
+~~~
+
+Kode ini berisi fungsi seperti nextImage(), prevImage(), dan OpenModal().
+
+~~~ Javascript
+.mount('#app')
+~~~
+
+Ini adalah kode untuk menghubungkan Vue dengan elemen <div id="app">.
+
+## 8. Footer
+
+~~~ Javascript
+<footer class="custom-footer">
+~~~
+
+Kode 'custom-footer' adalah styling khusus di CSS. Kode ini berisi informasi kontak dan social media.
+
+~~~ Javascript
+<i class="bi bi-instagram"></i>
+~~~
+
+Kode 'bi' adalah kode Bootstrap Icons.
 
 # Teknologi yang Digunakan
+
+Berikut adalah teknologi-teknologi yang digunakan untuk membuat website portofolio.
 
 ## 1. HTML5
 
