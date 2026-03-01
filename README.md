@@ -23,9 +23,15 @@ Navbar berguna untuk membantu pengguna antar section dengan smooth scroll.
 
 ## 2. Hero Section
 
-foto
+<img width="1887" height="785" alt="image" src="https://github.com/user-attachments/assets/d6d41a36-6d52-4ad3-8094-be62d8a94a77" />
 
-Hero section adalahtampilan pertama yang muncul saat website dibuka. Dalam hero section website portofolio ini terdapat fitur Nama lengkap, ada Deskripsi singkat nya sebagai tagline, lalu ada tombol Explore My Work, dan di sisi sebelah kanan itu ada foto profil yang bisa di geser dengan mengklik tanda panah kiri dan kanan.
+Hero section adalahtampilan pertama yang muncul saat website dibuka. Dalam hero section website portofolio ini terdapat fitur Nama lengkap, ada Deskripsi singkat nya sebagai tagline, lalu ada tombol Explore My Work, 
+
+<img width="655" height="599" alt="image" src="https://github.com/user-attachments/assets/8cf72f1f-2ca1-4f04-9e18-8549dcb69fd0" />
+ <img width="655" height="607" alt="image" src="https://github.com/user-attachments/assets/191fe576-2a92-4e7d-b382-ae0d8437aa49" />
+
+
+dan di sisi sebelah kanan ada foto profil yang bisa di geser dengan mengklik tanda panah kiri dan kanan.
 
 Hero menggunakan Vue JS untuk mengatur pergantian gambar secara dinamis.
 
