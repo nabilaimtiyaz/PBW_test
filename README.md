@@ -48,7 +48,9 @@ Gambar selanjutnya ini adalah tampilan cards dari My Skills dengan progress bar 
 
 ## 4. Certificates Section
 
-foto
+<img width="1888" height="663" alt="image" src="https://github.com/user-attachments/assets/f6824acb-81c8-42d4-b603-3098b54aec74" />
+
+<img width="1882" height="778" alt="image" src="https://github.com/user-attachments/assets/65b4efdd-65b9-4b2d-8f89-c6d687cc84c3" />
 
 Section sertifikat ini menampilkan daftar beberapa sertifikat dalam bentuk card/grid layout. Dibagi lagi menjadi dua kategori, yaitu Competition yang berisi sertifikat pertandingan atau perlombaan, serta kategori Leadership & Events yang berisi sertifikat dari mengikut event atau berpartisipasi dalam suatu kegiatan.
 
@@ -60,7 +62,7 @@ Data sertifikat disimpan secara statis di dalam Vue JS (array of objects).
 
 ## 5. Modal Popup
 
-<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/95d94428-a65e-43bc-a761-1a92f542004d" />
+<img width="1882" height="870" alt="image" src="https://github.com/user-attachments/assets/c36033f7-5454-4c1e-b99c-474c24edc3b9" />
 
 Fitur modal popup ini digunakan untuk menampilkan gambar sertifikat, judul, dan deskripsi detailnya.
 
@@ -81,6 +83,24 @@ Fitur-fitur nya yaitu ada layout 3 kolom yang responsive, lalu ada Hover animati
 
 # Penjelasan Code Setiap Section/Fitur
 
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+        <a class="navbar-brand brand-text" href="#">Lalaa</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                <li class="nav-item"><a class="nav-link" href="#journal">Journal</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 # Teknologi yang Digunakan
 
