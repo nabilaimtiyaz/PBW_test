@@ -52,7 +52,7 @@ foto
 
 Section sertifikat ini menampilkan daftar beberapa sertifikat dalam bentuk card/grid layout. Dibagi lagi menjadi dua kategori, yaitu Competition yang berisi sertifikat pertandingan atau perlombaan, serta kategori Leadership & Events yang berisi sertifikat dari mengikut event atau berpartisipasi dalam suatu kegiatan.
 
-<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/67a305d8-c504-44c9-b720-c953ad9cccad" /> <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/95d94428-a65e-43bc-a761-1a92f542004d" />
+<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/95d94428-a65e-43bc-a761-1a92f542004d" /> <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/67a305d8-c504-44c9-b720-c953ad9cccad" /> 
 
 Setiap card memiliki tombol "Show" yang akan menampilkan detail sertifikat dalam bentukk modal popup.
 
