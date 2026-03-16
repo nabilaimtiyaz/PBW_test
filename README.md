@@ -9,6 +9,8 @@ Sistem Informasi '2024
 
 # Portofolio Website
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/db4855d6-a318-4179-a5b7-fb9e3e216e0d" />
+
 Website portofolio personal yang menampilkan profil, pengalaman, skill, sertifikat, dan jurnal pribari. Dibuat menggunakan HTML, CSS, Bootsrap 5, dan Vue JS.
 
 # Tampilan Setiap Section/Fitur
