@@ -1,4 +1,4 @@
-# Mini Project 1 Praktikum PBW
+# Mini Project 2 Praktikum PBW
 Nama  : Nabila Imtiyaz Agustin
 
 NIM   : 2409116011
@@ -296,3 +296,36 @@ Vue JS digunakan untuk membuat website lebih dinamis, seperti mengatur slider, g
 ## 6. Google Fonts (Playfair Display & Poppins)
 
 Google fonts tentunya digunakan untuk mengganti fonts teks yang ada di dalam website agar lebih cantik tampilannya. Playfair Display digunakan untuk judul agar terlihat elegan, sedangkan Poppins digunakan untuk teks utama agar tetap stylish dan mudah ddibaca.
+
+# Update Mini Project 2
+
+## Deskripsi
+
+Pada Mini Project 2 ini website portofolio yang sebelumnya bersifat statis diubah menjadi dinamis dengan menghubungkan website ke database MySQL.
+
+Data yang ditampilkan pada website diambil dari database sehingga tidak lagi ditulis langsung pada kode program.
+
+## Tujuan
+
+Tujuan dari mini project 2 ini adalah untuk mengimplementasikan database pada website, mengambil data dari database menggunakan PHP, menampilkan data secara dinamis pada halaman website, dan menghubungkan PHP,MySQL, dan Vue.js dalam satu aplikasi web.
+
+## Teknologi yang digunakan
+
+Project ini dibuat menggunakan teknologi berikut:
+
+- HTML
+- CSS
+- Bootstrap 5
+- Vue.js
+- PHP
+- MySQL
+- Laragon
+- phpMyAdmin
+
+## Struktur Database
+
+Database yang digunakan bernama:
+
+**Portofolio**
+
+
