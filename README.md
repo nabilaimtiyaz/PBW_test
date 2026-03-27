@@ -328,4 +328,27 @@ Database yang digunakan bernama:
 
 **Portofolio**
 
+1. Tabel Personas
 
+Tabel ini digunakan untuk menyimpan dambar pada slider di halaman home.
+
+- id : INT (Primary Key)
+- images : VARCHAR
+
+2. Tabel Journals
+
+Digunakan untuk menyimpan gambar journaling.
+
+- id : INT (Primary Key)
+- image : VARCHAR
+
+3. Tabel Certificates
+
+Digunakan untuk menyimpan data sertifikat dan kompetisi.
+
+- id : INT (Primary Key)
+- title : VARCHAR
+- short_desc : VARCHAR
+- image : VARCHAR
+- detail_desc : TEXT
+- category : VARCHAR
